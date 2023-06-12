@@ -4,7 +4,7 @@
   "funding": "https://PonomareVlad.ru/donate",
   "license": "MIT",
   "dependencies": {
-    "grammy": "^1.16.1"
+    "grammy": "^1.16.2"
   },
   "engines": {
     "node": "^18.0.0"
