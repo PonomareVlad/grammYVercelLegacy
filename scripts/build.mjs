@@ -22,7 +22,7 @@ const paths = [
 ];
 
 // Remove necessary paths
-await Promise.all(paths.map(path => rm(path)));
+await Promise.all(paths.map(path => rm(path))).catch();
 
 // Webhook URL generation
 const url = getURL({path: "api/update"});
