@@ -7,7 +7,7 @@ const {VERCEL_ENV} = process.env;
 // List of allowed environments
 const allowedEnvs = [
     "production",
-    // "preview"
+    "preview"
 ];
 
 // Check bot
